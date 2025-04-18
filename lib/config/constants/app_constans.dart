@@ -4,15 +4,15 @@ class AppConstants {
   static const String DEFAULT_N8N_BASE_URL = 'https://your-n8n-instance.com';
 
   // Storage keys
-  static const String GEMINI_API_KEY = 'gemini_api_key';
+  static const String GEMINI_API_KEY = 'AIzaSyCsZt5Dhy1C_HZd4q_uMeODusTcNjhubog';
   static const String N8N_WEBHOOK_TOKEN = 'n8n_webhook_token';
   static const String N8N_BASE_URL = 'n8n_base_url';
   static const String IN_APP_STORE_REVIEW = 'inAppStoreReview';
 
   // Gemini API Configuration
-  static const String DEFAULT_GEMINI_MODEL = 'gemini-2.0-flash';
-  static const String GEMINI_ADVANCED_MODEL = 'gemini-1.5-pro-latest';
-  static const int DEFAULT_MAX_TOKENS = 4000;
+  static const String DEFAULT_GEMINI_MODEL = 'gemini-1.5-pro';
+  static const String GEMINI_ADVANCED_MODEL = 'gemini-1.5-pro';
+  static const int DEFAULT_MAX_TOKENS = 200;
   static const double DEFAULT_TEMPERATURE = 0.7;
 
   // UI/UX

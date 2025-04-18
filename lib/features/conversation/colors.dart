@@ -36,10 +36,3 @@ const appDividerColor = Color(0xFFDADADA);
 const appSplashSecondaryColor = Color(0xFFD7DBDD);
 
 // Dark Theme Colors
-const appBackgroundColorDark = Color(0xFF262626);
-const cardBackgroundBlackDark = Color(0xFF1F1F1F);
-const color_primary_black = Color(0xFF131d25);
-const appColorPrimaryDarkLight = Color(0xFFF9FAFF);
-const iconColorPrimaryDark = Color(0xFF212121);
-const iconColorSecondaryDark = Color(0xFFA8ABAD);
-const appShadowColorDark = Color(0x1A3E3942);

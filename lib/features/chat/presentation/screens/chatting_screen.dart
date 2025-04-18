@@ -21,19 +21,19 @@ import '../providers/conversation_provider.dart';
 import '../providers/gemini_provider.dart';
 import 'settings_screen.dart';
 
-class ChattingScreen extends ConsumerStatefulWidget {
+class ChattingScreens extends ConsumerStatefulWidget {
   static String tag = '/gemini';
 
   final bool isDirect;
   final String? conversationId;
 
-  ChattingScreen({this.isDirect = false, this.conversationId});
+  ChattingScreens({this.isDirect = false, this.conversationId});
 
   @override
-  ConsumerState<ChattingScreen> createState() => _ChattingScreenState();
+  ConsumerState<ChattingScreens> createState() => _ChattingScreenState();
 }
 
-class _ChattingScreenState extends ConsumerState<ChattingScreen> {
+class _ChattingScreenState extends ConsumerState<ChattingScreens> {
   ScrollController scrollController = ScrollController();
   TextEditingController msgController = TextEditingController();
   SpeechToText speech = SpeechToText();

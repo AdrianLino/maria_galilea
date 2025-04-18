@@ -2,6 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../features/auth/auth.dart';
 import '../../features/auth/presentation/providers/auth_provider.dart';
+import '../../features/chat/presentation/screens/chatting_screen.dart';
 import '../../features/chat/presentation/screens/settings_screen.dart';
 import '../../features/conversation/screens/chatting_screen.dart';
 import '../../features/products/presentation/screens/screens.dart';
@@ -47,9 +48,9 @@ final goRouterProvider = Provider((ref) {
         name: 'chat',
         builder: (context, state) {
           final conversationId = state.queryParams['id']; // <-- la forma correcta
-          return ChattingScreen(
+          return ChattingScreens(
             isDirect: false,
-            //conversationId: conversationId,
+            conversationId: conversationId,
           );
         },
       ),
